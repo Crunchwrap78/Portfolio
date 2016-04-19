@@ -1,0 +1,16 @@
+video{
+  min-width: 100%;
+  min-height: 5px;
+  width: auto;
+  height: auto;
+}
+
+p.brand{
+  display:block;
+  color: red;
+  font-size: 20px;
+  border: solid black 0px;
+  text-align: center;
+  z-index: 100;
+  margin-bottom: 100px;
+}
