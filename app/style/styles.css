@@ -10,7 +10,9 @@ video{
 p.brand{
   display:none;
   text-align: center;
+  font-family: 'Rokkitt', serif;
   color: white;
+  text-shadow: 2px 2px #000;
   font-size: 30px;
   border: solid black 0px;
   z-index: 1000000;;
@@ -53,4 +55,46 @@ p.brand{
   width: 90%;
   margin: 5%;
   justify-content: space-around;
+}
+
+full-nav{
+  margin-bottom: -170px;
+  color: #fff;
+  right: 10px;
+  z-index: 1000000;
+  font-size: 15px;
+
+  position: absolute;
+}
+
+div.logo{
+  margin-bottom: -170px;
+  z-index: 1000000;
+  font-size: 15px;
+  position: absolute;
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  text-shadow: 2px 2px #000;;
+  padding-left: 10px;
+}
+
+ul.inline{
+  decoration: none;
+  display: inline;
+  margin-bottom: -170px;
+  z-index: 1000000;
+  font-size: 20px;
+  position: absolute;
+  color: #fff;
+  font-family: 'Rokkitt', serif;
+  text-shadow: 2px 2px #000;;
+  padding-left: 10px;
+  top: 10px;
+  right: 10px;
+}
+
+li{
+  decoration: none;
+  display: inline;
+  padding: 10px
 }
