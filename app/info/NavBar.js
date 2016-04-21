@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class NavBar extends React.Component{
   render(){
     return(
       <ul className="inline">
-        <li>Home</li>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Education</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/About">About</Link></li>
+        <li><Link to="/Portfolio">Portfolio</Link></li>
+        <li><Link to="/Education">Education</Link></li>
       </ul>
     )
   }

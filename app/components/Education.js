@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Education extends React{
+class Education extends React.Component{
   render(){
     return(
       <div class='section-content'>
@@ -8,17 +8,18 @@ class Education extends React{
           <h5>I am a 22 year old web developer living in New York.</h5>
 
           <div id='photo_circle_container'>
-            <div class='photo_circle UMW' id='umw'>
+            <div className='photo_circle UMW' id='umw'>
               <h6>UNIVERSITY OF MARY WASHINGTON</h6>
             </div>
 
-            <div class='photo_circle new_york' id='va'>
+            <div className='photo_circle new_york' id='va'>
               <h6>VIENNA, VA</h6>
             </div>
-            <div class='photo_circle ga' id='ga'>
+            <div className='photo_circle ga' id='ga'>
               <h6>GENERAL ASSEMBLY</h6>
             </div>
           </div>
+        </div>
     )
   }
 }
