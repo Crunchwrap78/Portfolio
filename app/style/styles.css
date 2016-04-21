@@ -79,6 +79,11 @@ div.logo{
   text-shadow: 2px 2px #000;;
   padding-left: 10px;
 }
+nav{
+  background: url(/app/sources/Motivation_basics.jpg) center no-repeat ;
+  background-size: cover;
+  height: 300px;
+}
 
 ul.inline{
   decoration: none;
@@ -103,3 +108,108 @@ li{
   display: inline;
   padding: 10px
 }
+
+.photo_circle {
+    width: 175px;
+    text-align: center;
+    height: 175px;
+    border-radius: 400px;
+    /* border: 3px solid rgb(210,210,210); */
+    background-color: white;
+    overflow: hidden;
+    display: inline-block;
+
+    margin: 10px 30px;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+}
+
+.photo_circle.UMW{
+  background: url("/app/sources/umw.jpg") center no-repeat #e8dee1;
+  background-size: 175px 175px;
+ -webkit-filter: grayscale(0.9);
+}
+
+
+.photo_circle.va{
+  background: url("/app/sources/staticmap.png") center no-repeat #e8dee1;
+  background-size: 300px 180px;
+ -webkit-filter: grayscale(0.9);
+}
+
+.photo_circle.ga{
+  background: url("/app/sources/ga.png") center no-repeat #e8dee1;
+  background-size: 175px 175px;
+ -webkit-filter: grayscale(0.9);
+}
+
+.Ed-content{
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  height: auto;
+  width: 100%;
+}
+
+.section-content{
+  padding: 20px;
+  height: 550px;
+}
+
+.section-content p{
+  padding: 30px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 18px;
+}
+
+.section-content h5{
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+.section-content h4{
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+section-content h4{
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+div#photo_circle_container{
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.circle-holder{
+  margin: 0 auto;
+  width: 705px;
+}
+
+ .photo_circle.va:hover{
+   -webkit-filter: grayscale(0);
+ }
+
+ .photo_circle.UMW:hover{
+    -webkit-filter: grayscale(0);
+    background-color: #fff;
+ }
+
+ .photo_circle.ga:hover {
+    -webkit-filter: grayscale(0);
+    background-color: #fff;
+ }
+
+ h6{
+   margin-top: 75px;
+   color: white;
+   background-color: #000;
+   -webkit-filter: grayscale(0.8);
+   padding: 5px;
+ }

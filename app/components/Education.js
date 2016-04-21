@@ -1,22 +1,37 @@
 import React from 'react';
+import Paragraph from '../info/Paragraph';
+
+let data ={
+  text1: "Following my graduation from college in 2014, I continued to program and then worked as a .Net Consultant. An invaluable experience, my time as a .Net developer, which importantly made me realize there was a lot more to what I was doing than being boxed in, working in a GUI and not being able to work on open source projects",
+  text2: "In the 12 weeks I've spent in General Assembly's Web Development Immersive program I was able to excel in building apps on new platforms and honing my skills as a developer."
+}
 
 class Education extends React.Component{
   render(){
     return(
-      <div class='section-content'>
-          <h4>Hi, my name is Ryan Lee.</h4>
-          <h5>I am a 22 year old web developer living in New York.</h5>
+    <div className='Ed-content'>
+      <nav>
+
+      </nav>
+      <div className="section-content">
+          <h4>Hi, my name is Isaac.</h4>
+          <h5>I am a 24 year old web developer living in Virginia.</h5>
 
           <div id='photo_circle_container'>
+           <div className="circle-holder">
             <div className='photo_circle UMW' id='umw'>
               <h6>UNIVERSITY OF MARY WASHINGTON</h6>
             </div>
 
-            <div className='photo_circle new_york' id='va'>
+            <div className='photo_circle va' id='va'>
               <h6>VIENNA, VA</h6>
             </div>
+
             <div className='photo_circle ga' id='ga'>
               <h6>GENERAL ASSEMBLY</h6>
+            </div>
+            </div>
+            <Paragraph text1={ data.text1 } text2={ data.text2 }/>
             </div>
           </div>
         </div>
