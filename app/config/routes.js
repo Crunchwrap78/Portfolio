@@ -8,14 +8,13 @@ import Main from '../components/Main';
 import Home from '../components/Home';
 import About from '../components/About';
 import Projects from '../components/Projects';
-import Education from '../components/Education';
+
 var routes =(
   <Router history={hashHistory}>
     <Route path='/' component={Main} >
       <IndexRoute component={Home} />
     <Route path='About' component={About} />
     <Route path='Portfolio' component={Projects} />
-    <Route path='Education' component={Education} />
     </Route>
   </Router>
 );
