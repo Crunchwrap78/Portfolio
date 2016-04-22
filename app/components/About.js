@@ -10,7 +10,7 @@ class About extends React.Component{
   render(){
     return(
     <div className='Ed-content'>
-      <nav>
+      <nav className="about">
 
       </nav>
       <div className="section-content">

@@ -117,10 +117,16 @@ div.logo{
   text-shadow: 2px 2px #000;;
   padding-left: 10px;
 }
-nav{
+nav.about{
   background: url(/app/sources/Motivation_basics.jpg) center no-repeat ;
   background-size: cover;
-  height: 270px;
+  height: 350px;
+}
+
+nav.portfolio{
+  background: url(/app/sources/mountains.jpg) center no-repeat ;
+  background-size: cover;
+  height: 350px;
 }
 
 ul.inline{
