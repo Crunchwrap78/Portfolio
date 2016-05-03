@@ -16,7 +16,7 @@ p.brand{
   font-size: 30px;
   border: solid black 0px;
   z-index: 1000000;;
-  margin-top: -1220px;
+  margin-top: -1250px;
 }
 
 #statement{
@@ -34,7 +34,7 @@ img.social{
 }
 
 .container{
-  background: url("/app/sources/key.jpg") center;
+  background: url("/app/sources/binary.jpeg") center;
   background-size: cover;
   width: 100%;
   height: 570px;
@@ -50,8 +50,9 @@ img.social{
 }
 
 .row{
+  position: relative;;
   display: flex;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
   height: 300px;
   margin-bottom: 70px;
@@ -75,7 +76,7 @@ div.photo{
 div.contact{
   width: 200px;
   height: 200px;
-  background: url("/app/sources/phone.jpg") center no-repeat;
+  background: url("/app/sources/contacts.jpg") center no-repeat;
   background-size: 230px 230px;
   text-align: center;
   border-radius: 500px;
@@ -84,7 +85,30 @@ div.contact{
   display: block;
   margin: 0 auto;
   box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+}
 
+div.box {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  float: left;
+  padding: 50px
+}
+
+div.portfolio{
+  width: 200px;
+  height: 200px;
+  background: url("/app/sources/Folder-icon.png") center no-repeat;
+  background-size: 100px 100px;
+  text-align: center;
+  border-radius: 500px;
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
 }
 
 .column{
@@ -127,6 +151,10 @@ nav.portfolio{
   background: url(/app/sources/mountains.jpg) center no-repeat ;
   background-size: cover;
   height: 350px;
+}
+
+div.project-container{
+  width: 100%;
 }
 
 ul.inline{
@@ -265,4 +293,17 @@ div.circle-holder{
 
  .column p{
    padding: 10px;
+ }
+
+ a.info{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2% 3%;
+    background: #222;
+    color: #fff;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+    border-radius: 10px;
+    border: 1px solid #CCC;
  }

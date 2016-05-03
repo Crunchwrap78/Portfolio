@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class Footer extends React.Component{
   render(){
     return(
       <div className="row">
         <div className="column">
-          <h5>Isaac Hayes</h5>
+          <h4>Isaac Hayes</h4>
             <div className="photo"></div>
-            <p> Could be coming to your company </p>
+            <p> Coming to your company soon! </p>
         </div>
 
         <div className="column">
-          <h5 className="center">Contacts</h5>
+          <h4 className="center">Contact Me</h4>
           <div className="contact"></div>
           <p className="light">
-          {this.props.phone}
+          {this.props.phone} <br/>
           {this.props.email}
           <br/>
           <a href="mailto:hayesapples78@gmail.com">
@@ -33,8 +34,11 @@ class Footer extends React.Component{
         </div>
 
         <div className="column">
-          <h5 className="center">Something Cool</h5>
-          <p className="light">The origins of the word "cocktail" are lost to history, but the first definition we find in print comes from an 1806 newspaper from upstate New York. A cocktail is called </p>
+          <h4 className="center">Something Cool</h4>
+          <Link to="/Portfolio">
+            <div className="portfolio"> </div>
+          </Link>
+          <p> If you want to jump straight to the portfolio itself just click on the blue folder and it will link you to everything </p>
         </div>
       </div>
     )

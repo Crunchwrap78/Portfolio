@@ -1,7 +1,6 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/Cellar/node/5.5.0/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'run',
 1 verbose cli   'start' ]
 2 info using npm@3.5.3
 3 info using node@v5.5.0
@@ -28,7 +27,7 @@
 15 verbose pkgid portfolio@1.0.0
 16 verbose cwd /Users/Crunchwrap78/wdi/exercises/Portfolio
 17 error Darwin 15.3.0
-18 error argv "/usr/local/Cellar/node/5.5.0/bin/node" "/usr/local/bin/npm" "run" "start"
+18 error argv "/usr/local/Cellar/node/5.5.0/bin/node" "/usr/local/bin/npm" "start"
 19 error node v5.5.0
 20 error npm  v3.5.3
 21 error code ELIFECYCLE
