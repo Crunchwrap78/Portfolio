@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
-import Header from './Header'
+import Header from './Header';
+import TopBottom from '../info/Bottom';
+
 
 let footer_data ={
   phone: "Phone: 703-678-5155",
@@ -15,6 +17,7 @@ class Main extends React.Component{
       <Header />
         {this.props.children}
         <Footer phone={ footer_data.phone } email={ footer_data.email }/>
+        <TopBottom />
       </div>
     )
   }

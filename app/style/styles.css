@@ -1,11 +1,19 @@
+
 video{
-  min-width: 100%;
-  min-height: 750px;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-height: 870px
   opacity:
   z-index: 0;
 }
+
+@media screen and (max-width: 375px)
+main.bar{
+  width: 100%;
+  height: 870px;
+  position: absolute;
+}
+
 
 p.brand{
   display:none;
@@ -15,18 +23,20 @@ p.brand{
   text-shadow: 2px 2px #000;
   font-size: 30px;
   border: solid black 0px;
-  z-index: 1000000;;
-  margin-top: -1250px;
+  z-index: 1000000;
+  margin-top: -1850px;
 }
 
-#statement{
-  margin 0 auto;
-  width: 100%;
-  position:absolute;
-  text-align: center;
-  border: solid black 0px;
-  z-index: 1000000;
-  margin-top: -100px;
+@media screen and (min-width: 375px)
+{
+  #statement{
+    margin: 0 auto;
+    width: 80%;
+    position:relative;
+    text-align: center;
+    z-index: 1000000;
+
+  }
 }
 
 img.social{
@@ -34,7 +44,8 @@ img.social{
 }
 
 .container{
-  background: url("/app/sources/binary.jpeg") center;
+  background: url("/app/sources/binary.jpeg") fixed;
+  background-position: bottom;;
   background-size: cover;
   width: 100%;
   height: 570px;
@@ -44,7 +55,7 @@ img.social{
 
 .motive{
   font-family: 'Rokkitt', serif;
-  text-shadow: 2px 2px #000;;
+  text-shadow: 2px 2px #000;
   text-align: center;
   padding-top: 250px
 }
@@ -54,7 +65,7 @@ img.social{
   display: flex;
   width: 100%;
   margin: 0 auto;
-  height: 300px;
+  height: 360px;
   margin-bottom: 70px;
 }
 
@@ -88,13 +99,14 @@ div.contact{
 }
 
 div.box {
-  overflow: hidden;
-  position: relative;
+  font-family: 'Rokkitt', serif;
+  color: white;
+  text-shadow: 2px 2px #000;
   text-align: center;
   width: 50%;
-  height: 50%;
+  height: 360px;
   float: left;
-  padding: 50px
+  padding:
 }
 
 div.portfolio{
@@ -120,15 +132,13 @@ div.portfolio{
 }
 
 
-
+@media screen and (max-width: 375px)
 full-nav{
   margin-bottom: -170px;
   color: #fff;
   right: 10px;
   z-index: 1000000;
   font-size: 15px;
-
-  position: absolute;
 }
 
 div.logo{
@@ -142,9 +152,10 @@ div.logo{
   padding-left: 10px;
 }
 nav.about{
-  background: url(/app/sources/Motivation_basics.jpg) center no-repeat ;
+  background: url("/app/sources/Motivation_basics.jpg") fixed;
+  background-position: center;
   background-size: cover;
-  height: 350px;
+  height: 375px;
 }
 
 nav.portfolio{
@@ -216,6 +227,21 @@ li{
  -webkit-filter: grayscale(0.9);
 }
 
+div.circles{
+  width: 300px;
+  height: 300px;
+  background: url("/app/sources/athletic.jpg") center no-repeat;
+  background-size: 300px 300px;
+  text-align: center;
+  border-radius: 500px;
+  /* border: 3px solid rgb(210,210,210); */
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+}
+
 .Ed-content{
   text-align: center;
   font-size: 30px;
@@ -226,7 +252,7 @@ li{
 
 .section-content{
   padding-top: 60px;
-  height: 800px;
+  height: 985px;
 }
 
 .section-content p{
@@ -234,7 +260,7 @@ li{
   padding: 30px;
   color: #fff;
   text-shadow: 2px 2px #000;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .section-content h5{
@@ -246,6 +272,7 @@ li{
 
 .section-content h4{
   font-family: 'Rokkitt', serif;
+  padding-top: 45px;
   color: #fff;
   text-shadow: 2px 2px #000;
   font-size: 30px;
@@ -306,4 +333,80 @@ div.circle-holder{
     box-shadow: 0 0 1px #000;
     border-radius: 10px;
     border: 1px solid #CCC;
+ }
+div.skills{
+  width: 100%;
+  padding: 10px;
+}
+
+div.skill{
+  background-color: orange;
+  display: inline-block;
+  padding: 15px;
+  width: auto;
+  margin: 2px;
+  font-size: 15px;
+  box-shadow: 0 0 5px #000;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+
+}
+
+ .office{
+   background: url("/app/sources/office.jpg") fixed;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+ }
+
+ .end{
+   background-color: #FFF;
+   height: 30px;
+   width: 100%;
+   color: #000;
+   text-align: center;
+   font-family: 'Rokkitt', serif;
+   text-shadow: 2px 2px #FFF;
+ }
+
+ .end p{
+   font-size: 15px;
+   margin-top: 15px;
+ }
+
+div.parallax-footer{
+  background: url("/app/sources/office.jpg") fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  min-height: 360px;
+  width: 100%;
+}
+
+
+ .Projects1{
+   background-color: blue;
+
+ }
+
+ .Projects2{
+   background-color: green;
+ }
+
+ .Projects3{
+   background-color: green;
+
+ }
+
+ .Projects4{
+   background-color: blue;
+ }
+
+ .Projects5{
+   background-color: blue;
+ }
+
+ .Projects6{
+   background-color: green;
  }

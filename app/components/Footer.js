@@ -10,7 +10,6 @@ class Footer extends React.Component{
             <div className="photo"></div>
             <p> Coming to your company soon! </p>
         </div>
-
         <div className="column">
           <h4 className="center">Contact Me</h4>
           <div className="contact"></div>
@@ -32,7 +31,6 @@ class Footer extends React.Component{
           </a>
           </p>
         </div>
-
         <div className="column">
           <h4 className="center">Something Cool</h4>
           <Link to="/Portfolio">
@@ -41,6 +39,7 @@ class Footer extends React.Component{
           <p> If you want to jump straight to the portfolio itself just click on the blue folder and it will link you to everything </p>
         </div>
       </div>
+
     )
   }
 }
