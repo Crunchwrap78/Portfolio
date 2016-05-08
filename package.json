@@ -21,7 +21,6 @@
     "babel-preset-stage-0": "^6.5.0",
     "html-webpack-plugin": "^2.15.0",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-dev-server": "^1.10.*",
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
@@ -30,7 +29,8 @@
     "react-dom": "^15.0.1",
     "react-parallax": "^0.4.3",
     "react-router": "^2.0.0-rc5",
-    "webpack": "^1.12.*"
+    "webpack": "^1.12.*",
+    "webpack-dev-server": "^1.14.1"
   },
   "bugs": {
     "url": "https://github.com/Crunchwrap78/Portfolio/issues"
