@@ -4,7 +4,7 @@
   "description": "a portfolio made using react",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build"
+    "production": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
-    "express": "^4.13.4",
     "react": "15.0.1",
     "react-dom": "^15.0.1",
     "react-parallax": "^0.4.3",
