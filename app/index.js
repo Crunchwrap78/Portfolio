@@ -4,4 +4,4 @@ import routes from './config/routes';
 
 
 
-React.render(routes, document.getElementById('app'));
+ReactDOM.render(routes, document.getElementById('app'));
