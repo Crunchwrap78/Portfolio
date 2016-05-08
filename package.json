@@ -1,12 +1,11 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "a portfolio made using react",
   "main": "index.js",
   "scripts": {
     "production": "webpack -p",
-    "start": "webpack-dev-server",
-    "postinstall": "webpack -p --config webpack.prod.config.js"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -22,15 +21,18 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "html-webpack-plugin": "^2.15.0",
-    "webpack": "^1.12.*",
-    "webpack-dev-server": "^1.10.*"
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-server": "^1.10.*",
+    "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
     "babel-runtime": "^6.6.1",
-    "react": "^0.13.*",
+    "express": "^4.13.4",
+    "react": "15.0.1",
     "react-dom": "^15.0.1",
     "react-parallax": "^0.4.3",
-    "react-router": "^2.0.0-rc5"
+    "react-router": "^2.0.0-rc5",
+    "webpack": "^1.12.*"
   },
   "bugs": {
     "url": "https://github.com/Crunchwrap78/Portfolio/issues"
