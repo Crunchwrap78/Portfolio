@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "start": "webpack-dev-server",
+    "postinstall": "webpack -p --config webpack.prod.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Crunchwrap78/Portfolio.git"
   },
-  "dist": "webpack -p",
-  "postinstall": "npm run dist",
   "author": "",
   "license": "ISC",
   "devDependencies": {
