@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./webpack.prod.config.js --progress --colors",
-    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -30,7 +29,6 @@
     "express": "^4.13.4",
     "react": "15.0.1",
     "react-dom": "^15.0.1",
-    "react-parallax": "^0.4.3",
     "react-router": "^2.0.0-rc5",
     "webpack": "^1.12.*"
   },
