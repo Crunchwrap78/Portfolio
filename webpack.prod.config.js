@@ -37,14 +37,3 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    contentBase: './dist',
-    hot: true
-  },
-  plugins: [
-    HtmlWebpackPluginConfig,
-    new webpack.optimize.OccurenceOrderPlugin(),
-   new webpack.HotModuleReplacementPlugin(),
-   new webpack.NoErrorsPlugin()
-  ]
-}

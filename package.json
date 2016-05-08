@@ -4,7 +4,7 @@
   "description": "a portfolio made using react",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p",
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "webpack-dev-server"
   },
   "repository": {
