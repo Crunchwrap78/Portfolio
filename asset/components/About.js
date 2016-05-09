@@ -12,7 +12,7 @@ class About extends React.Component{
     return(
     <div className='Ed-content'>
       <nav className="about">
-
+        <div className="about-logo"><h1><i>☆</i> About Me</h1></div>
       </nav>
       <div className="section-content">
           <h4>Hi, my name is Isaac.</h4>

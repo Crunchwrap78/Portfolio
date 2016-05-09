@@ -1,7 +1,8 @@
 
 
 nav.portfolio{
-  background: url(/app/sources/mountains.jpg) center no-repeat ;
+  background: url(/app/sources/mountains.jpg) fixed;
+  background-position: bottom;
   background-size: cover;
   height: 350px;
 }
@@ -43,22 +44,15 @@ div.box {
 }
 
 div.parallax-footer{
-  background: url("/app/sources/office.jpg") fixed;
+  background: url("/app/sources/decor.jpg") fixed;
   background-position: center;
   background-size: cover;
-
+  height: 180px;
   width: 100%;
 
 }
 
-div.parallax-footer{
-  background: url("/app/sources/office.jpg") fixed;
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-  width: 100%;
 
-}
 
 .Projects1{
   background: url("/app/sources/offshadow.jpg");
@@ -161,9 +155,36 @@ div.parallax-footer{
 	stroke-opacity: 0;
 }
 .cover{
-      padding-top: 10px;
-      background: rgba(0, 0, 0, 0.4);
-      background-size: cover;
-      height: 100%;
-      width: 100%;
+  padding-top: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+div.project-logo{
+  display: block;
+  margin: 0 auto;
+  padding-top: 150px;
+  font-family: 'Rokkitt', serif;
+  color: white;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  width: 210px;
+}
+
+div.project-logo h1{
+  padding: 10px;
+  border: 5px solid #FFF;
+  box-shadow: 0 0 10px #000;
+}
+
+div.bottom-logo{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: 'Rokkitt', serif;
+  color: white;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  width: 210px;
 }

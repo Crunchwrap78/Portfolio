@@ -128,3 +128,20 @@ div.circle-holder{
    margin: 0 auto;
    width: 705px;
  }
+
+ div.about-logo{
+   display: block;
+   margin: 0 auto;
+   padding-top: 150px;
+   font-family: 'Rokkitt', serif;
+   color: white;
+   text-shadow: 2px 2px #000;
+   text-align: center;
+   width: 210px;
+ }
+
+ div.about-logo h1{
+   padding: 10px;
+   border: 5px solid #FFF;
+   box-shadow: 0 0 10px #000;
+ }
