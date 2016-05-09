@@ -39,7 +39,7 @@ class ProjectTools extends React.Component{
 
         <div className="Projects4 box">
           <div className="mask">
-            <h1> Cryptly </h1>
+            <h1> Cryptly</h1>
               <div className="skills">
                 <div className="skill">{this.props.html}</div> <div className="skill">{this.props.css}</div> <div className="skill">{this.props.node}</div> <div className="skill">{this.props.ex}</div> <div className="skill">{this.props.js}</div>
               </div>
@@ -68,9 +68,6 @@ class ProjectTools extends React.Component{
             <p><a href="https://github.com/Crunchwrap78/CreativeStyles" className="info">The Code</a></p>
             <p><a href="#" className="info">see it live!</a></p>
           </div>
-        </div>
-
-        <div className="parallax-footer">
         </div>
       </div>
     )

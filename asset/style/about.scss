@@ -1,0 +1,130 @@
+.Ed-content{
+  text-align: center;
+  font-size: 30px;
+  background-color: gray;
+  height: auto;
+  width: 100%;
+}
+
+nav.about{
+  background: url("/app/sources/Motivation_basics.jpg") fixed;
+  background-position: center;
+  background-size: cover;
+  height: 375px;
+}
+
+.section-content{
+  padding-top: 60px;
+  height: 985px;
+}
+
+.section-content p{
+  font-family: 'Rokkitt', serif;
+  padding: 30px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 22px;
+}
+
+.section-content h5{
+  font-family: 'Rokkitt', serif;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+.section-content h4{
+  font-family: 'Rokkitt', serif;
+  padding-top: 45px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+section-content h4{
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+div#photo_circle_container{
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.circle-holder{
+  margin: 0 auto;
+  width: 705px;
+}
+/*about*/
+ .photo_circle.va:hover{
+   -webkit-filter: grayscale(0);
+ }
+/*about*/
+ .photo_circle.UMW:hover{
+    -webkit-filter: grayscale(0);
+    background-color: #fff;
+ }
+/*about*/
+ .photo_circle.ga:hover {
+    -webkit-filter: grayscale(0);
+    background-color: #fff;
+ }
+
+ /*about*/
+ .photo_circle {
+     width: 175px;
+     text-align: center;
+     height: 175px;
+     border-radius: 400px;
+     /* border: 3px solid rgb(210,210,210); */
+     background-color: white;
+     overflow: hidden;
+     display: inline-block;
+
+     margin: 10px 30px;
+     box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+ }
+ /*about*/
+ .photo_circle.UMW{
+   background: url("/app/sources/umw.jpg") center no-repeat #e8dee1;
+   background-color: #fff;
+   background-size: 130px 130px;
+  -webkit-filter: grayscale(0.9);
+ }
+
+ /*about*/
+ .photo_circle.va{
+   background: url("/app/sources/staticmap.png") center no-repeat #e8dee1;
+   background-size: 300px 180px;
+  -webkit-filter: grayscale(0.9);
+ }
+ /*about*/
+ .photo_circle.ga{
+   background: url("/app/sources/ga.png") center no-repeat #e8dee1;
+   background-color: #fff;
+   background-size: 150px 150px;
+  -webkit-filter: grayscale(0.9);
+ }
+ /*about*/
+ div.circles{
+   width: 300px;
+   height: 300px;
+   background: url("/app/sources/athletic.jpg") center no-repeat;
+   background-size: 300px 300px;
+   text-align: center;
+   border-radius: 500px;
+   /* border: 3px solid rgb(210,210,210); */
+   background-color: white;
+   overflow: hidden;
+   display: block;
+   margin: 0 auto;
+   box-shadow: inset 0px 0px 20px rgba(0,0,0,0.9);
+ }
+
+ div.circle-holder{
+   margin: 0 auto;
+   width: 705px;
+ }

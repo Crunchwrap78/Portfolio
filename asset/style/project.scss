@@ -1,0 +1,152 @@
+
+
+nav.portfolio{
+  background: url(/app/sources/mountains.jpg) center no-repeat ;
+  background-size: cover;
+  height: 350px;
+}
+
+div.project-container{
+  width: 100%;
+}
+
+div.portfolio-container{
+  width: 100%;
+  height: 1080px;
+}
+
+div.skills{
+  width: 100%;
+  padding: 10px;
+}
+
+div.skill{
+  background-color: orange;
+  display: inline-block;
+  padding: 15px;
+  width: auto;
+  margin: 2px;
+  font-size: 15px;
+  box-shadow: 0 0 5px #000;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+
+}
+div.box {
+  font-family: 'Rokkitt', serif;
+  color: white;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  width: 50%;
+  height: 360px;
+  float: left;
+}
+
+div.parallax-footer{
+  background: url("/app/sources/office.jpg") fixed;
+  background-position: center;
+  background-size: cover;
+
+  width: 100%;
+
+}
+
+div.parallax-footer{
+  background: url("/app/sources/office.jpg") fixed;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+
+}
+
+.Projects1{
+  background: url("/app/sources/offshadow.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+
+}
+
+.Projects2{
+  background: url("/app/sources/shoes.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Projects3{
+  background: url("/app/sources/mac.jpg");
+  background-position: bottom;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Projects4{
+  background: url("/app/sources/office.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Projects5{
+  background: url("/app/sources/office.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Projects6{
+  background: url("/app/sources/office.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.Projects1:hover{
+  background: url("/app/sources/match.png");
+  background-position: bottom;
+  background-size: cover;
+  fill: rgba(255, 255, 255, 1);
+	stroke-dasharray: 150, 1;
+	stroke-opacity: 0;
+}
+
+.Projects2:hover{
+  background: url("/app/sources/workout.png");
+  background-position: bottom;
+  background-size: cover;
+  fill: rgba(255, 255, 255, 1);
+	stroke-dasharray: 150, 1;
+	stroke-opacity: 0;
+}
+
+.cover{
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 3.9;
+      height: 100%;
+      width: 100%;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import TopBottom from '../info/Bottom';
-
+import '../style/styles.scss';
 
 let footer_data ={
   phone: "Phone: 703-678-5155",

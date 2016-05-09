@@ -1,5 +1,6 @@
 import React from 'react';
 import Paragraph from '../info/Paragraph';
+import '../style/about.scss';
 
 let data ={
   text1: "Following my graduation from college in 2014, I continued to program. I worked as a .Net Consultant. An invaluable experience, my time as a .Net developer, which importantly made me realize there was a lot more to what I was doing than being boxed in, working in a GUI and not being able to work on open source projects.",
