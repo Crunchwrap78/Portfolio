@@ -4,7 +4,7 @@
   "description": "a portfolio made using react",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "node app.js",
     "postinstall": "webpack -p"
   },
   "repository": {

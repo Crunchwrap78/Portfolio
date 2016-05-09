@@ -94,7 +94,7 @@ div.parallax-footer{
 }
 
 .Projects4{
-  background: url("/app/sources/office.jpg");
+  background: url("/app/sources/coffee.jpg");
   background-position: center;
   background-size: cover;
   -webkit-transition: all 1s ease;
@@ -144,9 +144,26 @@ div.parallax-footer{
 	stroke-opacity: 0;
 }
 
+.Projects3:hover{
+  background: url("/app/sources/roevwade.png");
+  background-position: top;
+  background-size: cover;
+  fill: rgba(255, 255, 255, 1);
+	stroke-dasharray: 150, 1;
+	stroke-opacity: 0;
+}
+.Projects4:hover{
+  background: url("/app/sources/cryptly.png");
+  background-position: top;
+  background-size: cover;
+  fill: rgba(255, 255, 255, 1);
+	stroke-dasharray: 150, 1;
+	stroke-opacity: 0;
+}
 .cover{
+      padding-top: 10px;
       background: rgba(0, 0, 0, 0.4);
-      opacity: 3.9;
+      background-size: cover;
       height: 100%;
       width: 100%;
 }

@@ -16,19 +16,21 @@ p.brand{
   font-size: 30px;
   border: solid black 0px;
   z-index: 1000000;
-  margin-bottom: -550px;
+  margin-top: -1850px;
 }
 
 .motive{
   font-family: 'Rokkitt', serif;
   text-shadow: 2px 2px #000;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 280px;
 }
+
+
 
 .container{
   background: url("/app/sources/dark.jpg") fixed;
-  background-position: bottom;;
+  background-position: bottom;
   background-size: cover;
   width: 100%;
   height: 570px;
